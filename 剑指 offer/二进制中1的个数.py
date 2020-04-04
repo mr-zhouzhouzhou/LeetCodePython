@@ -31,4 +31,4 @@ class Solution:
         return c
 
 
-print(10&9)
+print(-1212&0xffffffff)

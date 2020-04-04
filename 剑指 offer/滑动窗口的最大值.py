@@ -29,3 +29,10 @@ class Solution:
             if i >= size-1:
                 result.append(num[q[0]])
         return result
+
+
+m_list = [2,3,4,2,6,2,5,1]
+
+solution = Solution()
+print(solution.maxInWindows(m_list, 3))
+

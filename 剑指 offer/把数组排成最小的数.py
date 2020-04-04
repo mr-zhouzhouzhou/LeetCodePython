@@ -18,7 +18,6 @@ class Solution:
                 m_dict[value] = m_dict[value] + 1
                 if value in m_list:
                     m_list.remove(value)
-
             else:
                 m_list.append(value)
                 m_dict[value] = 1
@@ -28,5 +27,9 @@ class Solution:
             return -1
 
 
+s = [3, 32, 321]
+solution = Solution()
+temp = solution.FirstNotRepeatingChar(s)
+print(temp)
 
 
